@@ -1,0 +1,15 @@
+{
+  "name": "examen-gcba",
+  "version": "1.0.0",
+  "description": "Examen de maquetación web realizado por Brian Sanchez",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian-sanchez",
+  "license": "ISC",
+  "dependencies": {
+    "@gcba/obelisco": "^1.33.1",
+    "sass": "^1.52.2"
+  }
+}

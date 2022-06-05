@@ -1,0 +1,732 @@
+// --------------------------------------------------- Estilos Generales -----------------------------------
+.btn-primary {
+    border-radius: 0.2rem;
+}
+
+.btn-secondary {
+    border-radius: 0.2rem;
+}
+
+.start-section, .covid-section, .consult-section, .general-services, .proposals-section, .information-section, 
+.prevent-symptoms-section, .schools-section {
+    padding-left: 8.8rem;
+    padding-right: 8.8rem;
+
+    @media screen and (max-width: 769px) {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    @media screen and (max-width: 435px) {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    @media screen and (max-width: 402px) {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+// ------------------------------------------------------------------------------------------------------
+
+// --------------------------------------------------- Header -----------------------------------
+.navbar {
+    .container {
+        .header-logo {
+            height: 2rem;
+            margin-left: 1rem;
+    
+            @media screen and (max-width: 751px) {
+                margin-left: 0;
+            }
+        }
+    
+        .form-control {
+            box-shadow: none;
+
+            @media screen and (max-width: 591px) {
+                background-color: #FFFFFF;
+            }
+        }
+
+        @media screen and (max-width: 751px) {
+            padding: 0;
+        }
+    }
+}
+// ------------------------------------------------------------------------------------------------------
+
+// --------------------------------------------------- Inicio -----------------------------------
+.start-section {
+    padding-top: 1.5rem;
+    padding-bottom: 2.5rem;
+    background-color: #F3F6F9;
+
+    a {
+        color: #007BC7;
+    }
+
+    .last-update {
+        @media screen and (max-width: 591px) {
+            font-size: 13px;
+        }
+    }
+
+    .recommendation-text {
+        font-size: 19px;
+
+        br {
+            @media screen and (max-width: 591px) {
+                display: none;
+            }
+        }
+    }
+}
+
+.covid-section {
+    background: linear-gradient(
+        to bottom,
+        #F3F6F9 0%,
+        #F3F6F9 50%,
+        #FFFFFF 0%,
+        #FFFFFF 50%
+    );
+
+    .cards-container {
+        display: flex;
+
+        .card {
+            margin-right: 1.5rem;
+            padding-right: 2.2rem;
+            box-shadow: 0px 1px 3px #38485C33;
+            background: linear-gradient(
+                to right,
+                #FFDB2E 0%,
+                #FFDB2E 8px,
+                #FFFFFF 0%,
+                #FFFFFF 90%
+            );
+
+            .card-body {
+                padding-left: 1.5rem;
+                padding-top: 1.5rem;
+                padding-bottom: 1.5rem;
+
+                p {
+                    font-size: 16px;
+                    white-space: nowrap;
+                    margin-bottom: 0;
+
+                    @media screen and (max-width: 307px) {
+                        white-space: unset;
+                    }
+                }
+
+                .card-text {
+                    @media screen and (max-width: 560px) {
+                        display: none;
+                    }
+                }
+
+                .card-text-2 {
+                    display: none;
+                    margin-bottom: 0;
+                    
+                    @media screen and (max-width: 560px) {
+                        display: block;
+                    }
+                }
+
+            }
+
+            @media screen and (max-width: 1295px) {
+                display: block;
+                margin-bottom: 1.25rem;
+                margin-right: 0;
+                padding-right: 0;
+            }
+        }
+
+        .card-3 {
+            margin-right: 0;
+        }
+
+        @media screen and (max-width: 1295px) {
+            display: block;
+        }
+    }
+
+    @media screen and (max-width: 1295px) {
+        background: linear-gradient(
+            to bottom,
+            #F3F6F9 0%,
+            #F3F6F9 85%,
+            #FFFFFF 0%,
+            #FFFFFF 15%
+        );
+    }
+}
+// ------------------------------------------------------------------------------------------------------
+
+// --------------------------------------------------- Consultar mi resultado -----------------------------------
+.consult-section {
+    padding-bottom: 4rem;
+    padding-top: 2.8rem;
+
+    .consult-information {
+        background-color: #CFFBE2;
+        display: flex;
+        padding-left: 3rem;
+        padding-top: 3rem;
+        border-radius: 0.5rem;
+
+        p {
+            font-size: 19px;
+
+            br {
+                @media screen and (max-width: 591px) {
+                    display: none;
+                }
+            }
+        }
+
+        .consult-inputs {
+            display: flex;
+
+            .form-group {
+                margin-right: 2rem;
+                
+                .form-control {
+                    background-color: #FFFFFF;
+                    box-shadow: none;
+                    border-radius: 0.2rem;
+                    padding-right: 5rem;
+                }
+
+                @media screen and (max-width: 1028px) {
+                    margin-right: 0;
+                }
+            }
+
+            @media screen and (max-width: 1028px) {
+                display: block;
+            }
+        }
+
+        img {
+            height: 19rem;
+            justify-content: end;
+
+            @media screen and (max-width: 1028px) {
+                display: block;
+                margin: auto;
+            }
+
+            @media screen and (max-width: 402px) {
+                height: 12rem;
+            }
+
+            @media screen and (max-width: 307px) {
+                height: 9rem;
+            }
+        }
+
+        button {
+            margin-bottom: 3rem;
+        }
+
+        @media screen and (max-width: 1028px) {
+            display: block;
+        }
+
+        @media screen and (max-width: 554px) {
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+    }
+
+    @media screen and (max-width: 1028px) {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+// ------------------------------------------------------------------------------------------------------
+
+// --------------------------------------------------- Servicios Generales -----------------------------------
+.general-services {
+    .cards-container {
+        display: flex;
+        
+        .card {
+            .card-body {
+                .card-icon {
+                    background-color: #F5F9FC;
+                    padding-left: 0.5rem;
+                    padding-right: 0.5rem;
+                    padding-bottom: 0.4rem;
+                    border-radius: 2rem;
+                }
+    
+                h4 {
+                    margin-top: 1rem;
+                }
+    
+                a {
+                    text-decoration: none;
+                    color: #007BC7;
+                    font-size: 21px;
+                }
+            }
+
+            @media screen and (max-width: 554px) {
+                margin-bottom: 2rem;
+            }
+        }
+
+        @media screen and (max-width: 964px) {
+            display: block;
+            margin-bottom: 2.7rem;
+        }
+    }
+}
+// ------------------------------------------------------------------------------------------------------
+
+// ----------------------------------------------- Escuelas (Solo aparece para dispositivos moviles) -----------------------------------
+.schools-section {
+    display: none;
+
+    h2 {
+        margin-bottom: 1.5rem;
+    }
+
+    .cards-container {
+        display: flex;
+
+        .card {
+            margin-bottom: 0.7rem;
+
+            .card-body {
+                @media screen and (max-width: 720px) {
+                    padding: 1.5rem;
+                }
+            }
+        }
+
+        @media screen and (max-width: 720px) {
+            display: block;
+        }
+    }
+
+    @media screen and (max-width: 720px) {
+        display: block;
+    }
+}
+// ------------------------------------------------------------------------------------------------------
+
+// --------------------------------------------------- Propuestas para hacer en casa -----------------------------------
+.proposals-section {
+    display: block;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    h2 {
+        margin-bottom: 1.5rem;
+
+        @media screen and (max-width: 550px) {
+            font-size: 27px;
+        }
+    }
+
+    .proposals-cards {
+        display: flex;
+
+        @media screen and (max-width: 1205px) {
+            display: block;
+        }
+
+        .cards-container {
+            margin-right: 2rem;
+
+            .card-body {
+                background-color: #F3F6F9;
+                padding: 1.5rem;
+
+                a {
+                    color: #007BC7;
+                }
+
+                .card-text {
+                    white-space: nowrap;
+
+                    br {
+                        @media screen and (max-width: 320px) {
+                            display: none;
+                        }
+                    }
+
+                    @media screen and (max-width: 320px) {
+                        white-space: inherit;
+                    }
+                }
+            }
+
+            @media screen and (max-width: 1205px) {
+                margin-right: 0;
+                margin-bottom: 1.5rem;
+            }
+        }
+    }
+}
+// ------------------------------------------------------------------------------------------------------
+
+// --------------------------------------------------- Información en datos -----------------------------------
+.information-section {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    background-color: #F3F6F9;
+
+    p {
+        font-size: 19px;
+        
+        br {
+            @media screen and (max-width: 550px) {
+                display: none;
+            }
+        }
+    }
+
+    .btn-primary {
+        margin-right: 1.5rem;
+
+        @media screen and (max-width: 565px) {
+            margin-bottom: 1rem;
+        }
+    }
+}
+// ------------------------------------------------------------------------------------------------------
+
+// --------------------------------------------------- Prevención y Sintomas -----------------------------------
+.prevent-symptoms-section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    .list-inline {
+        margin-top: 2.6rem;
+
+        .list-inline-item {
+            display: flex;
+            margin-bottom: 1.8rem;
+            align-items: center;
+
+            h5 {
+                font-weight: 600;
+
+                br {
+                    @media screen and (max-width: 550px) {
+                        display: none;
+                    }
+                }
+            }
+    
+            img {
+                margin-right: 1.7rem;
+            }
+
+            p {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .prevent-information {
+        a {
+            color: #007BC7;
+        }
+
+        @media screen and (max-width: 766px) {
+            margin-bottom: 3.7rem;
+        }
+    }
+
+    @media screen and (max-width: 766px) {
+        display: block;
+        padding-bottom: 3.7rem;
+    }
+}
+// ------------------------------------------------------------------------------------------------------
+
+// --------------------------------------------------- Información oficial del Gobierno Nacional -----------------------------------
+.oficial_information {
+    justify-content: center;
+    text-align: center;
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
+    background-color: #F3F6F9;
+    
+    h5 {
+        margin-bottom: 1.8rem;
+        white-space: nowrap;
+
+        @media screen and (max-width: 769px) {
+            margin-bottom: 0;
+        }
+
+        @media screen and (max-width: 356px) {
+            white-space: unset;
+        }
+    }
+
+    a {
+        margin-right: 3rem;
+        text-decoration: none;
+        color: #007BC7;
+        font-weight: 600;
+
+        @media screen and (max-width: 1120px) {
+            margin-right: 1.4rem;
+        }
+
+        @media screen and (max-width: 769px) {
+            margin-right: 0;
+            display: block;
+            margin-top: 1.5rem;
+        }
+    }
+
+    @media screen and (max-width: 769px) {
+        text-align: start;
+        justify-content: center;
+        padding-left: 1rem;
+        padding-right: 1.6rem;
+    }
+}
+// ------------------------------------------------------------------------------------------------------
+
+// --------------------------------------------------- Footer -----------------------------------
+.main-footer {
+    .flex {
+        display: flex;
+    
+        .img-vamos-ba {
+            margin-right: 5rem;
+            margin-bottom: 13rem;
+
+            @media screen and (max-width: 1205px) {
+                margin-right: 2rem;
+            }
+
+            @media screen and (max-width: 1119px) {
+                margin-bottom: 1.5rem;
+            }
+        }
+
+        .footer_contact {
+            margin-bottom: -0.5rem;
+            display: flex;
+
+            .view_all_phones {
+                margin-right: 4.4rem;
+                white-space: nowrap;
+
+                h4 {
+                    margin-bottom: -0.1rem;
+                    font-size: 18px;
+                }
+
+                a {
+                    font-size: 13px;
+                }
+
+                @media screen and (max-width: 1119px) {
+                    margin-right: 0;
+                    margin-bottom: 1.5rem;
+                }
+            }
+
+            .list-inline {
+                display: flex;
+
+                .list-inline-item.phone-items {
+                    margin-right: 2rem;
+
+                    p {
+                        color: #AAAAAA;
+                        white-space: nowrap;
+                        font-weight: normal;
+
+                        br {
+                            @media screen and (max-width: 1119px) {
+                                display: none;
+                                margin-bottom: 0;
+                            }
+                        }
+
+                        @media screen and (max-width: 1119px) {
+                            margin-bottom: 0;
+                            text-decoration: underline;
+                            color: #FFFFFF;
+                            font-weight: normal;
+                        }
+                    }
+
+                    @media screen and (max-width: 1119px) {
+                        display: flex;
+                        align-items: center;
+
+                        a {
+                            margin-right: 0.5rem;
+                        }
+                    }
+                }
+
+                @media screen and (max-width: 1119px) {
+                    display: block;
+                    align-items: center;
+                }
+            }
+
+            @media screen and (max-width: 1119px) {
+                display: block;
+            }
+        }
+    
+        .footer_socials {
+            display: flex;
+            align-items: center;
+
+            .footer-socials-title {
+                margin-right: 2.9rem;
+
+                @media screen and (max-width: 1119px) {
+                    margin-bottom: 1rem;
+                    margin-top: 2.5rem;
+                }
+
+                @media screen and (max-width: 751px) {
+                    display: none;
+                }
+            }
+
+            .footer-socials-title-phone {
+                display: none;
+
+                @media screen and (max-width: 751px) {
+                    display: block;
+                    margin-top: 2.5rem;
+                }
+            }
+
+            .redes-items {
+                margin-right: 2.6rem;
+
+                .socials {
+                    text-decoration: none;
+
+                    .socials-icons {
+                        height: 1.3rem;
+    
+                        @media screen and (max-width: 751px) {
+                            height: 1.3rem;
+                            margin-right: 0.6rem;
+                        }
+                    }
+                }
+
+                .links {
+                    display: none;
+
+                    @media screen and (max-width: 751px) {
+                        display: inline;
+                    }
+                }
+
+                @media screen and (max-width: 751px) {
+                    margin-bottom: 1.1rem;
+                }
+            }
+
+            .facebook {
+                @media screen and (max-width: 751px) {
+                    margin-left: 0.4rem;
+                }
+            }
+
+            @media screen and (max-width: 1119px) {
+                display: block;
+            }
+        }
+
+        @media screen and (max-width: 1119px) {
+            display: block;
+        }
+    }
+
+    .divider {
+        margin: -4rem 0 2rem;
+        border-top: 0.1rem solid #fff;
+
+        @media screen and (max-width: 1119px) {
+            margin: 3.063rem 0 3.188rem
+        }
+    }
+
+    .footer-legal-section {
+        .row {
+            @media screen and (max-width: 1119px) {
+                margin-right: 0;
+                margin-left: 0;
+            }
+        }
+
+        .align-items-center {
+            display: flex;
+            box-sizing: unset;
+            flex-wrap: nowrap;
+            align-items: flex-end;
+            margin-bottom: 0.7rem;
+
+            @media screen and (max-width: 1119px) {
+                display: block;
+            }
+    
+            .gbca-footer-image {
+                margin-right: 10.7rem;
+                margin-left: 1rem;
+
+                @media screen and (max-width: 1119px) {
+                    margin-right: 0;
+                    margin-left: 0;
+                    margin-bottom: 1.5rem;
+                }
+            }
+    
+            .list-inline {
+                display: flex;
+
+                .list-inline-item {
+                    margin-right: 1.2rem;
+                    
+                    a {
+                        font-size: 14px;
+                    }
+                }
+
+                @media screen and (max-width: 1119px) {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    .footer-license-text {
+        font-size: 12px;
+
+        @media screen and (max-width: 1119px) {
+            margin-left: 0;
+            margin-top: 1.5rem;
+        }
+    }
+}
+// ------------------------------------------------------------------------------------------------------ Fin :D
