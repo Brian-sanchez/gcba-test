@@ -645,6 +645,11 @@
 .main-footer .footer-legal-section .align-items-center .list-inline .list-inline-item a {
   font-size: 14px;
 }
+@media screen and (max-width: 550px) {
+  .main-footer .footer-legal-section .align-items-center .list-inline .opinion {
+    display: none;
+  }
+}
 @media screen and (max-width: 1119px) {
   .main-footer .footer-legal-section .align-items-center .list-inline {
     display: block;

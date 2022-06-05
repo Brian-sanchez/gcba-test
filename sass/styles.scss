@@ -387,7 +387,7 @@
 
     p {
         font-size: 19px;
-        
+
         br {
             @media screen and (max-width: 550px) {
                 display: none;
@@ -710,6 +710,12 @@
                     
                     a {
                         font-size: 14px;
+                    }
+                }
+
+                .opinion {
+                    @media screen and (max-width: 550px) {
+                        display: none;
                     }
                 }
 
